@@ -73,16 +73,17 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hi {}, my name is {}! 
-I am a modular group management bot.
+ALO KAWAN {}, my name is {}! 
+Anathema adalah Group Bot Management.
+Dibuat untuk mengatur dan membantu admin untuk membasmi orang gila di TELEGRAM
 
-You can find my list of available commands with /help.
+Temukan beberapa fitur dengan mengetik /help.
 """
 
 HELP_STRINGS = """
-Hey there! My name is *{}*.
-I'm a modular group management bot and help admins manage their groups. Have a look at the following for an idea of some of \
-the things I can help you with.
+ALO KAWAN! My name is *{}*.
+Dibuat untuk mengatur dan membantu admin untuk membasmi orang gila di TELEGRAM.
+Tambahkan aku ke group mu dan JADIKAN ADMIN 
 
 *Main* commands available:
  • /help: PM's you this message.
@@ -230,14 +231,14 @@ def start(update: Update, context: CallbackContext):
                         ],
                         [
                             InlineKeyboardButton(
-                                text="Support Group",
-                                url=f"https://t.me/AstrakoBotSupport",
+                                text="Support Channel Kita",
+                                url=f"https://t.me/ruangpublikk",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
-                                text="Getting started guide",
-                                url="https://t.me/OnePunchUpdates/29",
+                                text="Owner",
+                                url="https://t.me/Betterthaanhecan",
                             )
                         ],
                         [
